@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
+
+body {
+  background: url(../images/ms-bkg.png);  margin: auto;
+  width: 1280px;
+}
+
+a {
+  color: #6baed6;
+}
+
+a:not(:hover) {
+  text-decoration: none;
+}
+
+.stack {
+  color: #fff;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  display: none;
+  font-size: 48px;
+  height: 800px;
+  padding: 160px 80px;
+  width: 1280px;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+.active {
+  box-shadow: 0px 4px 8px rgba(0,0,0,.5);
+  display: block;
+  position: fixed;
+}
+
+.grey {
+  color: #969696;
+}
+
+@media
+screen and (max-device-width: 1024px) {
+  body {
+    width: 1200px;
+  }
+
+  .stack {
+    margin: 40px 0;
+  }
+
+  .stack {
+    display: block;
+  }
+}
+
+.container, .container-narrow {
+  font-family: 'Arvo', serif;
+    display: block;
+}
+
+
+.brand {
+  display: block;
+  width: 248px;
+  height: 88px;
+  background-image: url('../images/logo.png');
+  background-repeat: no-repeat;
+  background-position:50% 50%; 
+  text-indent: -5000px;
+  padding: 0px;
+  margin-left: 15px;
+  margin-top: 0px;
+  }
+
+
+.lead {
+  position: relative;
+  margin-top: -45px;
+  margin-left: 112px;
+  color: #969696;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: -.05em;
+  color: ;
+}
