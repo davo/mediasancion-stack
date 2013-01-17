@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
 
 body {
-  background: url(../images/ms-bkg.png);  margin: auto;
+  background: url(../images/retina_wood.png);  margin: auto;
   width: 1280px;
 }
 
@@ -14,6 +14,7 @@ a:not(:hover) {
 }
 
 .stack {
+  background: url(../images/ms-bkg.png);  
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -24,6 +25,22 @@ a:not(:hover) {
   padding: 40px 80px;
   width: 1280px;
   -webkit-transform: translate3d(0,0,0);
+}
+
+.stack-one {
+  background: #97E8E4 !important;
+}
+
+.stack-two {
+  background: #BDE5F9 !important;
+}
+
+.stack-tree {
+  background: #6CC9F6 !important;
+}
+
+.stack-four {
+  background: #AEB2B4 !important;
 }
 
 .active {
@@ -59,7 +76,7 @@ screen and (max-device-width: 1024px) {
   padding-top: 250px;
 }
 
-.side h4, .side h5 {
+.side h3, .side h4, .side h5 {
   padding-left: 90px;
 }
 
